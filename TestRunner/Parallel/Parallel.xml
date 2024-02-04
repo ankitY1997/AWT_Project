@@ -8,7 +8,7 @@
 			class-name="com.awt.utills.reusablecomponents.RetryListener"></listener>
 	</listeners>
 	<test name="Test">
-       <parameter name="MaxRetry" value="400"></parameter>
+       <parameter name="MaxRetry" value="2"></parameter>
 		<classes>
 			<class name="com.awt.test.Home.VerifyPanelsQuantityTest">
 				<methods>
