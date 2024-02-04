@@ -13,7 +13,7 @@ import com.awt.utills.reusablecomponents.Owner;
 import com.awt.utills.reusablecomponents.SoftAssertTest;
 import com.awt.utills.reusablecomponents.TestId;
 /**
- * @author Ankit 
+ * @author Ankit Yadav
  */
 public class VerifyLogInFunctionalityTest extends BaseTest {
 
