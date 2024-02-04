@@ -25,7 +25,8 @@ public class ExtentReportNG {
 		Date date = new Date();
 		String actual_date = format.format(date);
 		// path of report
-		String path = "./TestResult/Report/ExecutionReport_" + actual_date + ".html";
+		// String path = "./TestResult/Report/ExecutionReport_" + actual_date + ".html";
+		String path = "./TestResult/Report/ExecutionReport" + ".html";
 		// object of extent spark report
 		ExtentSparkReporter spark_report = new ExtentSparkReporter(path);
 		// object of extent report
