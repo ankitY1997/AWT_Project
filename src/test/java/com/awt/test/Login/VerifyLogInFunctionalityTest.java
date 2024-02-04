@@ -12,7 +12,9 @@ import com.awt.utills.reusablecomponents.ExcelOperations;
 import com.awt.utills.reusablecomponents.Owner;
 import com.awt.utills.reusablecomponents.SoftAssertTest;
 import com.awt.utills.reusablecomponents.TestId;
-
+/**
+ * @author Ankit 
+ */
 public class VerifyLogInFunctionalityTest extends BaseTest {
 
 	@Test
@@ -46,7 +48,7 @@ public class VerifyLogInFunctionalityTest extends BaseTest {
 	}
 
 	@Test(dataProvider = "LogInCrendenital")
-	@Description(description = "verify login functionality")
+	@Description(description = "verify login credentiald")
 	@TestId(id = { 290, 220 })
 	@Owner(name = "Ankit ")
 	public void verifyLogInCredentialsTest(String TestCaseId, String Username, String Password) {
