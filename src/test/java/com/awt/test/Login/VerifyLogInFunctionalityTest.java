@@ -40,7 +40,7 @@ public class VerifyLogInFunctionalityTest extends BaseTest {
 		lp.logInToTheApplication(ExcelOperations.getCellData("LoginCredentialDetails", "Username", "220"),
 				ExcelOperations.getCellData("LoginCredentialDetails", "Username", "220"));
 		// verfiy error message should be visible
-		Assert.assertEquals(lp.getErrorMessage(),LoginPageConstants.error_message, "verfiy error message ", 220);
+		Assert.assertEquals(lp.getErrorMessage(), LoginPageConstants.error_message, "verfiy error message ", 220);
 		Assert.assertAll();
 
 	}
@@ -61,7 +61,7 @@ public class VerifyLogInFunctionalityTest extends BaseTest {
 		lp.logInToTheApplication(Username, Password);
 		// --> naviagate to the home page and verfiy the project name of the homepage
 		//Assert.assertEquals(lp.getProjectName(), LoginPageConstants.project_name, "project name is visible ", 290);
-        Assert.assertAll();
+		Assert.assertAll();
 	}
 
 }
