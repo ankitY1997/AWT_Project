@@ -6,11 +6,11 @@
     <listener class-name="com.awt.utills.reusablecomponents.RetryListener"/>
   </listeners>
   <test thread-count="3" parallel="methods" name="Test(failed)">
-    <parameter name="MaxRetry" value="0"/>
+    <parameter name="MaxRetry" value="2"/>
     <classes>
       <class name="com.awt.test.Login.VerifyLogInFunctionalityTest">
         <methods>
-          <include name="verifyLogInFunctionalityTest"/>
+          <include name="verifyLogInCredentialsTest" invocation-numbers="2 2 2"/>
           <include name="launchBrowser"/>
           <include name="tearUp"/>
         </methods>
