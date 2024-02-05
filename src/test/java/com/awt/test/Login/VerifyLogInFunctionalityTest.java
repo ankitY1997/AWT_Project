@@ -63,6 +63,7 @@ public class VerifyLogInFunctionalityTest extends BaseTest {
 		lp.logInToTheApplication(Username, Password);
 		// --> naviagate to the home page and verfiy the project name of the homepage
 		Assert.assertEquals(lp.getProjectName(), LoginPageConstants.project_name, "project name is visible ", 290);
+		System.out.println();
         Assert.assertAll();
 	}
 
